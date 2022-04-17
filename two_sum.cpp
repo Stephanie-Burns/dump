@@ -9,7 +9,7 @@ std::set<std::tuple<int, int>> two_sum(
     const int& target
     )
 // Given an array and target number, it finds all 2 pair combinations that sum
-// to equal the target. Output is returned as a vector of tuples i.e. {(0, 0)}
+// to equal the target. Output is returned as a set of tuples i.e. {(0, 0)}
 
 {
     std::set<int> seen;
